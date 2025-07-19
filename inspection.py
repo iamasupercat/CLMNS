@@ -20,7 +20,7 @@ import sys
 # 1. 대상 폴더 지정
 base_dir = "후드"
 label_folders = ["bad", "good", "Y"]
-dest_dir = "../검수0717/후드"
+dest_dir = "../검수요청0717/후드"
 
 # 엑셀 데이터 미리 읽어두기
 excel_path = os.path.join(base_dir, "후드.xlsx")
