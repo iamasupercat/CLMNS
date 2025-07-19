@@ -26,8 +26,7 @@ def check_csv_data_matching():
         # 엑셀 파일 읽기 (특정 행부터 끝까지)
         print(" 파일을 읽는 중...")
         # 시작 행 설정 (일련번호가 아니라 엑셀 기준 행 번호)
-        #start_row = 1
-        start_row = 2942
+        start_row = 1
         df = pd.read_excel(excel_path, header=0, skiprows=range(1, start_row-1))
         print(f"엑셀 파일 로드 완료: {len(df)} 행 ({start_row}행부터 끝까지 읽음)")
         print(df.head(1))
